@@ -1,16 +1,5 @@
 [
     {
-        "description": "Official build of Nginx.",
-        "repository": "dockerhub",
-        "arch": "arm64",
-        "icon": "",
-        "displayName": "nginx",
-        "name": "arm64v8/nginx",
-        "version": "latest",
-        "location": "https://hub.docker.com/r/arm64v8/nginx",
-        "type": "docker"
-    },
-    {
         "description": "Redis is an open source key-value store that functions as a data structure server.",
         "repository": "dockerhub",
         "arch": "arm64",
@@ -1277,5 +1266,16 @@
         "version": "10",
         "location": "http://download.qnap.com/QPKG/container/debian-buster_10_arm64.tar.gz",
         "type": "lxc"
+    },
+        {
+        "description": "Official build of Nginx.",
+        "repository": "dockerhub",
+        "arch": "arm64",
+        "icon": "",
+        "displayName": "nginx",
+        "name": "arm64v8/nginx",
+        "version": "latest",
+        "location": "https://hub.docker.com/r/arm64v8/nginx",
+        "type": "docker"
     }
 ]
