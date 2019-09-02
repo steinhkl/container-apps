@@ -27,7 +27,7 @@ $req1.results | ForEach-Object {
         "displayName": "$imgName",
         "name": "arm64v8/$imgName",
         "version": "latest",
-        "location": "https://hub.docker.com/r/arm64v8/$imgName",
+        "location": "https://hub.docker.com/r/arm64v8/$imgName/",
         "type": "docker"
     },
 
@@ -48,7 +48,7 @@ $req2.results | ForEach-Object {
         "displayName": "$imgName",
         "name": "arm64v8/$imgName",
         "version": "latest",
-        "location": "https://hub.docker.com/r/arm64v8/$imgName",
+        "location": "https://hub.docker.com/r/arm64v8/$imgName/",
         "type": "docker"
     },
 
